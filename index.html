@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MalucheTECH — Innovamos hoy, programamos el futuro</title>
+<meta name="description" content="MalucheTECH: desarrollo de software, aplicaciones y sistemas personalizados en La Dorada, Caldas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Maluche<span class="accent">TECH</span></a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navMenu">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#faq">Preguntas</a></li>
+        <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap" id="inicio">
+    <div class="hero-copy">
+      <p class="eyebrow">// La Dorada, Caldas — Colombia</p>
+      <h1>Innovamos hoy,<br>programamos <span class="accent-outline">el futuro</span>.</h1>
+      <p class="hero-lede">MalucheTECH es una empresa dedicada al desarrollo de soluciones de software innovadoras y personalizadas: aplicaciones, sistemas web y programas empresariales, con mantenimiento y soporte técnico permanente.</p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-primary">Hablemos de tu proyecto</a>
+        <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+      </div>
+    </div>
+
+    <div class="hero-terminal" aria-hidden="true">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-red"></span><span class="dot"></span><span class="dot"></span>
+          <span class="terminal-title">maluche@tech: ~/futuro</span>
+        </div>
+        <div class="terminal-body">
+          <p class="line"><span class="prompt">$</span> <span class="type-target" id="typeLine">iniciar_proyecto --cliente="tu-empresa"</span><span class="cursor">▌</span></p>
+          <p class="line dim">&gt; compilando ideas...</p>
+          <p class="line dim">&gt; empaquetando soluciones...</p>
+          <p class="line ok">&gt; ✔ listo para producción</p>
+        </div>
+      </div>
+      <div class="terminal-glow"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE / LOGOS STRIP (identidad, no clientes reales) -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>DESARROLLO WEB</span><span>·</span><span>APPS MÓVILES</span><span>·</span>
+      <span>MANTENIMIENTO</span><span>·</span><span>SOPORTE 24/7</span><span>·</span>
+      <span>SEGURIDAD</span><span>·</span><span>SISTEMAS A LA MEDIDA</span><span>·</span>
+      <span>DESARROLLO WEB</span><span>·</span><span>APPS MÓVILES</span><span>·</span>
+      <span>MANTENIMIENTO</span><span>·</span><span>SOPORTE 24/7</span><span>·</span>
+      <span>SEGURIDAD</span><span>·</span><span>SISTEMAS A LA MEDIDA</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section class="services wrap" id="servicios">
+    <div class="section-head">
+      <p class="eyebrow">// Servicios</p>
+      <h2>Dos frentes, un mismo objetivo:<br>que tu tecnología funcione.</h2>
+    </div>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34">
+            <rect x="4" y="8" width="40" height="26" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M16 40h16M24 34v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M13 16l5 5-5 5M25 26h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="service-index">01</span>
+        <h3>Desarrollo de aplicaciones y sistemas personalizados</h3>
+        <p>Creamos programas, aplicaciones web y móviles adaptados a las necesidades reales de cada cliente: desde una idea en una servilleta hasta un sistema en producción.</p>
+        <ul class="service-tags">
+          <li>Apps web</li><li>Apps móviles</li><li>Sistemas a la medida</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34">
+            <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M24 6v6M24 36v6M6 24h6M36 24h6M11.5 11.5l4.2 4.2M32.3 32.3l4.2 4.2M11.5 36.5l4.2-4.2M32.3 15.7l4.2-4.2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="service-index">02</span>
+        <h3>Mantenimiento y soporte de software</h3>
+        <p>Corrección de errores, actualizaciones, mejoras de seguridad y soporte técnico continuo para que tus sistemas sigan funcionando correctamente, siempre.</p>
+        <ul class="service-tags">
+          <li>Corrección de errores</li><li>Actualizaciones</li><li>Soporte técnico</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonials" id="testimonios">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">// Testimonios</p>
+        <h2>Lo que dicen quienes ya trabajaron con nosotros</h2>
+      </div>
+
+      <div class="testi-grid">
+        <figure class="testi-card">
+          <blockquote>“MalucheTECH nos entregó nuestra plataforma de pedidos antes de lo previsto y siguió acompañándonos después del lanzamiento. El soporte responde el mismo día.”</blockquote>
+          <figcaption>
+            <span class="avatar" style="--c:#E4032E">CR</span>
+            <span class="testi-meta"><strong>Camila Ríos</strong>Gerente, Distribuidora del Magdalena</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card">
+          <blockquote>“Necesitábamos modernizar un sistema interno de más de diez años. El equipo entendió el negocio antes de tocar una línea de código.”</blockquote>
+          <figcaption>
+            <span class="avatar" style="--c:#111111">JF</span>
+            <span class="testi-meta"><strong>Jorge Fernández</strong>Director de operaciones, AgroDorada</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card">
+          <blockquote>“La app móvil que desarrollaron redujo nuestras quejas de agendamiento a la mitad en el primer mes. Comunicación clara en todo el proceso.”</blockquote>
+          <figcaption>
+            <span class="avatar" style="--c:#E4032E">LT</span>
+            <span class="testi-meta"><strong>Laura Torres</strong>Fundadora, Clínica Vitalis</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq wrap" id="faq">
+    <div class="section-head">
+      <p class="eyebrow">// Preguntas frecuentes</p>
+      <h2>Antes de escribirnos, quizás esto ayude</h2>
+    </div>
+
+    <div class="faq-list" id="faqList">
+      <div class="faq-item is-open">
+        <button class="faq-question" aria-expanded="true">
+          <span>¿Qué tipo de proyectos desarrolla MalucheTECH?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Desarrollamos aplicaciones web, aplicaciones móviles y sistemas empresariales a la medida, adaptados al proceso real de cada cliente en vez de plantillas genéricas.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>¿Ofrecen soporte después de entregar el proyecto?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sí. Todo proyecto incluye una etapa de mantenimiento y soporte técnico: corrección de errores, actualizaciones y mejoras de seguridad continuas.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>¿Trabajan con clientes fuera de La Dorada, Caldas?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Claro. Aunque estamos ubicados en La Dorada, trabajamos de forma remota con empresas y personas en toda Colombia.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>¿Cuánto tiempo toma desarrollar un sistema a la medida?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Depende del alcance. Un sitio web corporativo puede tomar entre 1 y 2 semanas; un sistema empresarial completo, varias semanas más, siempre con entregas parciales.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span>¿Cómo empiezo a trabajar con MalucheTECH?</span>
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Escríbenos por el botón de contacto contándonos tu idea o problema actual. Agendamos una primera conversación sin costo para entender tus necesidades.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="wrap contact-inner">
+      <div>
+        <p class="eyebrow">// Contacto</p>
+        <h2>¿Tienes una idea?<br>Programémosla juntos.</h2>
+        <p class="contact-lede">Cuéntanos qué necesita tu empresa y te respondemos en menos de 24 horas hábiles.</p>
+        <ul class="contact-details">
+          <li><strong>Ubicación:</strong> La Dorada, Caldas, Colombia</li>
+          <li><strong>Correo:</strong> contacto@maluchetech.co</li>
+          <li><strong>Teléfono / WhatsApp:</strong> +57 300 000 0000</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>
+          Nombre
+          <input type="text" name="nombre" required placeholder="Tu nombre">
+        </label>
+        <label>
+          Correo
+          <input type="email" name="correo" required placeholder="tucorreo@ejemplo.com">
+        </label>
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="4" required placeholder="Cuéntanos sobre tu proyecto"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="logo">Maluche<span class="accent">TECH</span></a>
+    <p>&copy; <span id="year"></span> MalucheTECH — La Dorada, Caldas, Colombia. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a href="#contacto" class="floating-contact" aria-label="Ir a contacto">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 8.4 8.4 0 0 1-3.9-.95L3 20l1-5.4A8.5 8.5 0 1 1 21 11.5z"/></svg>
+  <span>Contáctanos</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
